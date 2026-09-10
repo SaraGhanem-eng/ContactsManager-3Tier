@@ -59,7 +59,7 @@
             // 
             this.btnAdd.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.Green;
-            this.btnAdd.Location = new System.Drawing.Point(685, 117);
+            this.btnAdd.Location = new System.Drawing.Point(809, 117);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(90, 34);
             this.btnAdd.TabIndex = 1;
@@ -71,7 +71,7 @@
             // 
             this.btnDelete.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.Red;
-            this.btnDelete.Location = new System.Drawing.Point(444, 117);
+            this.btnDelete.Location = new System.Drawing.Point(568, 117);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(90, 34);
             this.btnDelete.TabIndex = 2;
@@ -83,7 +83,7 @@
             // 
             this.btnUpdate.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnUpdate.Location = new System.Drawing.Point(563, 117);
+            this.btnUpdate.Location = new System.Drawing.Point(687, 117);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(90, 34);
             this.btnUpdate.TabIndex = 3;
@@ -101,7 +101,7 @@
             this.dgvAllContacts.Location = new System.Drawing.Point(29, 189);
             this.dgvAllContacts.Name = "dgvAllContacts";
             this.dgvAllContacts.ReadOnly = true;
-            this.dgvAllContacts.Size = new System.Drawing.Size(746, 235);
+            this.dgvAllContacts.Size = new System.Drawing.Size(873, 235);
             this.dgvAllContacts.TabIndex = 4;
             // 
             // contextMenuStrip1
@@ -162,7 +162,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(974, 450);
             this.Controls.Add(this.lblFindContact);
             this.Controls.Add(this.txtFindContactByName);
             this.Controls.Add(this.label2);

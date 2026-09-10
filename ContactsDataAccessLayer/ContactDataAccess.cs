@@ -190,6 +190,7 @@ namespace ContactsDataAccessLayer
             catch (Exception ex)
             {
                 string Error = ex.Message;
+                
             }
             finally
             {
