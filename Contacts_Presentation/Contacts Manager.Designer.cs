@@ -31,15 +31,11 @@
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.dgvAllContacts = new System.Windows.Forms.DataGridView();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.editToolStripeMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtFindContactByName = new System.Windows.Forms.TextBox();
-            this.lblFindContact = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllContacts)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -59,37 +55,13 @@
             // 
             this.btnAdd.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.Green;
-            this.btnAdd.Location = new System.Drawing.Point(809, 117);
+            this.btnAdd.Location = new System.Drawing.Point(719, 117);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(90, 34);
+            this.btnAdd.Size = new System.Drawing.Size(183, 34);
             this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "Add New Contact";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.ForeColor = System.Drawing.Color.Red;
-            this.btnDelete.Location = new System.Drawing.Point(568, 117);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(90, 34);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnUpdate
-            // 
-            this.btnUpdate.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btnUpdate.Location = new System.Drawing.Point(687, 117);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(90, 34);
-            this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // dgvAllContacts
             // 
@@ -137,38 +109,14 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Contacts List :";
             // 
-            // txtFindContactByName
-            // 
-            this.txtFindContactByName.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFindContactByName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtFindContactByName.Location = new System.Drawing.Point(140, 117);
-            this.txtFindContactByName.Name = "txtFindContactByName";
-            this.txtFindContactByName.Size = new System.Drawing.Size(234, 28);
-            this.txtFindContactByName.TabIndex = 7;
-            // 
-            // lblFindContact
-            // 
-            this.lblFindContact.AutoSize = true;
-            this.lblFindContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFindContact.Location = new System.Drawing.Point(95, 116);
-            this.lblFindContact.Name = "lblFindContact";
-            this.lblFindContact.Size = new System.Drawing.Size(39, 29);
-            this.lblFindContact.TabIndex = 8;
-            this.lblFindContact.Text = "🔎";
-            this.lblFindContact.Click += new System.EventHandler(this.lblFindContact_Click);
-            // 
             // ContactManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(974, 450);
-            this.Controls.Add(this.lblFindContact);
-            this.Controls.Add(this.txtFindContactByName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvAllContacts);
-            this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label1);
             this.Name = "ContactManager";
@@ -185,14 +133,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.DataGridView dgvAllContacts;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem editToolStripeMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem1;
-        private System.Windows.Forms.TextBox txtFindContactByName;
-        private System.Windows.Forms.Label lblFindContact;
     }
 }

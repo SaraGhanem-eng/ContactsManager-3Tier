@@ -44,7 +44,7 @@ namespace Contacts_Presentation
             {
                 lblAddUpdate.Text = "📞Add New Contact";
                 _Contact = new clsContacts();
-                llRemoveImage.Visible = false;
+                
                 return;
             }
 

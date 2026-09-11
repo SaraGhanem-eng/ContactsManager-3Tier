@@ -14,9 +14,6 @@ namespace Contacts_Presentation
     public partial class ContactManager : Form
     {
 
-        [System.Runtime.InteropServices.DllImport("user32.dll", CharSet = System.Runtime.InteropServices.CharSet.Auto)]
-        private static extern Int32 SendMessage(IntPtr hWnd, int msg, int wParam, [System.Runtime.InteropServices.MarshalAs(System.Runtime.InteropServices.UnmanagedType.LPTStr)] string lParam);
-        private const int EM_SETCUEBANNER = 0x1501;
 
 
         public ContactManager()
@@ -31,9 +28,6 @@ namespace Contacts_Presentation
         private void ContactManager_Load(object sender, EventArgs e)
         {
             _RefreshContactList();
-
-            SendMessage(txtFindContactByName.Handle, EM_SETCUEBANNER, 1, "Search");
-
 
         }
 
@@ -63,16 +57,6 @@ namespace Contacts_Presentation
            
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
             AddEditContact frm = new AddEditContact(-1);
@@ -80,12 +64,6 @@ namespace Contacts_Presentation
             _RefreshContactList();
         }
 
-        private void lblFindContact_Click(object sender, EventArgs e)
-        {
-            if (txtFindContactByName.Text != "")
-            {
-                
-            }
-        }
+
     }
 }
